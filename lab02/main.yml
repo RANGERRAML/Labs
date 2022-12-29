@@ -1,0 +1,4 @@
+- hosts: lab02
+  tasks:
+  - name: Include Apache
+    include_tasks: "{{ansible_os_family}}.yml"
