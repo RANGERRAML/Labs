@@ -23,13 +23,13 @@
 # 5. unzip koppee.zip
 - name: Download and extract Template on RedHat
   unarchive:
-    src: https://www.free-css.com/assets/files/free-css-templates/download/page281/koppee.zip
+    src: https://www.free-css.com/assets/files/free-css-templates/download/page286/consult.zip
     dest: /tmp/
     remote_src: yes
 
 # 6. Copy file to /var/www/html on RedHat
 - name: Copy a "sudoers" file on the remote machine for editing
   copy:
-    src: /tmp/coffee-shop-html-template/
+    src: /tmp/consultancy-website-template/
     dest: /var/www/html/
     remote_src: yes
